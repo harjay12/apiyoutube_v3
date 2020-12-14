@@ -37,7 +37,10 @@ function Footer() {
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.google.com" className=" github social">
+              <a
+                href="https://github.com/harjay12/apiyoutube_v3"
+                className=" github social"
+              >
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
             </li>
