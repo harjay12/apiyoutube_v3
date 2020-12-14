@@ -26,7 +26,10 @@ class About extends Component {
           <div class="row">
             <div class="three wide column">
               <Image src="/Dan.jpg" roundedCircle />
-              <p>BSU's Undergrad Student Computer Science's Major Josh Lopes</p>
+              <p>
+                BSU's Undergrad Student Computer Science's Major Rayan Dan-Salah
+                Shardow-Suberu
+              </p>
             </div>
             <div class="ten wide column">
               <p></p>

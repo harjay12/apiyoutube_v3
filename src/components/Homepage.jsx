@@ -103,8 +103,8 @@ class Homepage extends React.Component {
       return (
         <div>
           <div onClick={() => this.handleClick_Next_Prev(nextToken, query)}>
-            <button className="ui right floated right labeled icon button ">
-              <i className="right arrow icon"></i>
+            <button className="ui right floated right labeled  button ">
+              <i className="right arrow "></i>
               Next
             </button>
           </div>
@@ -112,8 +112,8 @@ class Homepage extends React.Component {
             className={this.state.prev ? "enablePrev" : "disablePrev"}
             onClick={() => this.handleClick_Next_Prev(prevToken, query)}
           >
-            <button className="ui right floated left labeled icon button  ">
-              <i className="left arrow icon"></i>
+            <button className="ui right floated left labeled button  ">
+              <i className="left arrow "></i>
               Prev
             </button>
           </div>
@@ -168,7 +168,15 @@ class Homepage extends React.Component {
             allowFullScreen
             title="Video player"
           />
-          <div className="ui segment">
+          <div
+            className="ui segment"
+            style={{
+              position: "absolute",
+              top: "800px",
+              width: "600px",
+              height: "auto",
+            }}
+          >
             <h4 className="ui header">{selectedVideo.snippet.title}</h4>
             <p>{selectedVideo.snippet.description}</p>
           </div>

@@ -61,10 +61,7 @@
     box-shadow: 0 10px 6px -6px #777;
   }
   .icon {
-    color: green;
-    position: absolute;
-    left: 5%;
-    top: 15em;
+    display: none;
   }
 }
 
