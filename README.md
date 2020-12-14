@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+{
+"Version": "2008-10-17",
+"Id": "PolicyForCloudFrontPrivateContent",
+"Statement": [
+{
+"Sid": "1",
+"Effect": "Allow",
+"Principal": {
+"AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity ESLRBPBU3IRYM"
+},
+"Action": "s3:GetObject",
+"Resource": "arn:aws:s3:::youtubev3api.xyz/*"
+}
+]
+}
+
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "PublicReadGetObject",
+"Effect": "Allow",
+"Principal": "*",
+"Action": "s3:GetObject",
+"Resource": "arn:aws:s3:::exampletrial/*"
+}
+]
+}

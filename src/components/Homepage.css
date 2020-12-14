@@ -1,0 +1,51 @@
+.leftScale {
+  left: 450px;
+}
+
+.disablePrev {
+  visibility: hidden;
+}
+.enablePrev {
+  visibility: visible;
+}
+.imgRef {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  width: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .imgRef {
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon {
+    color: green;
+    position: absolute;
+    left: 5%;
+    top: 15em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .containerItems {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+  }
+  .icon {
+    color: green;
+    position: absolute;
+    left: 5%;
+    top: 15em;
+  }
+}

@@ -1,0 +1,21 @@
+.container {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.header {
+  font-size: 30px;
+  padding: 16px 0;
+  color: #444;
+  text-align: center;
+}
+
+.icon-box {
+  height: 100%;
+  width: 90px;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  box-sizing: border-box;
+  color: rgb(29, 95, 216);
+}
