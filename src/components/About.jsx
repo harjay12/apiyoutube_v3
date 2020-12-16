@@ -13,7 +13,7 @@ class About extends Component {
         <div class="ui internally celled  grid">
           <div class="row">
             <div class="three wide column">
-              <Image src="/harj.jpeg" roundedCircle />
+              <Image src="/harj.jpg" roundedCircle />
               <p>
                 BSU's Undergrad Student Computer Science's Major with a Minor in
                 Applied Math Jean Saint Aime
