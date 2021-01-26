@@ -4,7 +4,7 @@ import axios from "axios";
 import { Jumbotron } from "react-bootstrap";
 import "./Homepage.css";
 
-const KEY = process.env.REACT_APP_YOUTUBE_V3_API_KEY;
+const KEY = "AIzaSyCARwCbt1GPPn8bGQwFGZELZ_WCFV3AWhA";
 
 const loadClient = axios.create({
   baseURL: "https://www.googleapis.com/youtube/v3/",
@@ -103,8 +103,8 @@ class Homepage extends React.Component {
       return (
         <div>
           <div onClick={() => this.handleClick_Next_Prev(nextToken, query)}>
-            <button className="ui right floated right labeled  button ">
-              <i className="right arrow "></i>
+            <button className="ui right floated right labeled icon button ">
+              <i className="right arrow icon"></i>
               Next
             </button>
           </div>
@@ -112,8 +112,8 @@ class Homepage extends React.Component {
             className={this.state.prev ? "enablePrev" : "disablePrev"}
             onClick={() => this.handleClick_Next_Prev(prevToken, query)}
           >
-            <button className="ui right floated left labeled button  ">
-              <i className="left arrow "></i>
+            <button className="ui right floated left labeled icon button  ">
+              <i className="left arrow icon"></i>
               Prev
             </button>
           </div>
@@ -168,15 +168,7 @@ class Homepage extends React.Component {
             allowFullScreen
             title="Video player"
           />
-          <div
-            className="ui segment"
-            style={{
-              position: "absolute",
-              top: "800px",
-              width: "600px",
-              height: "auto",
-            }}
-          >
+          <div className="ui segment">
             <h4 className="ui header">{selectedVideo.snippet.title}</h4>
             <p>{selectedVideo.snippet.description}</p>
           </div>
