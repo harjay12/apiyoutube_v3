@@ -20,6 +20,11 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
+  "react-dotenv": {
+    "whitelist": [
+      "REACT_APP_YOUTUBE_V3_API_KEY"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
